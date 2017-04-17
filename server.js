@@ -45,6 +45,11 @@ app.get('/login', function (req,res) {
         {
             res.send("LOG IN oK");
         }
+
+    }
+    else
+    {
+        res.send("Login Fail");
     }
 
 
