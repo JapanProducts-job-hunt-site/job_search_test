@@ -1,4 +1,7 @@
 How to run
 
-npm install
-npm start or node server.js
+- npm install
+- npm start
+OR
+- npm install
+- node server.js
