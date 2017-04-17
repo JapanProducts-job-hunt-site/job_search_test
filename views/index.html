@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="login-form">
+        <!-- todo: should use post method instead get -->
+        <form method="get" action="/login">
+            <label>Email :</label>
+            <input type="email" name="email"> <br>
+            <label>Password</label>
+            <input type="password" name="password"> <br>
+            <input type="submit" name="search" value="login"> <br>
+        </form>
+    </div>
+    <div class="register-form">
+        <!-- todo: should use post method instead get -->
+        <form method="get" action="/register">
+            <label>First Name :</label>
+            <input type="firstname" name="text"> <br>
+            <label>Last Name :</label>
+            <input type="lastname" name="text">  <br>
+            <label>Email :</label>
+            <input type="email" name="email"> <br>
+            <label>Password</label>
+            <input type="password" name="password"> <br>
+
+            <input type="submit" name="search" value="register"> <br>
+        </form>
+
+    </div>
+</body>
+</html>

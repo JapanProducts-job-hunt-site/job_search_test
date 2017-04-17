@@ -1,0 +1,19 @@
+{
+  "name": "job-hunting",
+  "version": "1.0.0",
+  "description": "job-hunting web site for Japan Product ",
+  "main": "server.js",
+  "scripts": {
+    "test": "noderver.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JapanProducts-job-hunt-site"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
