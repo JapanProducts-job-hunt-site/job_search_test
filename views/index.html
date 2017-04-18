@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" ng-app>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="css/index.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 </head>
 <body>
     <div class="login-form">
@@ -20,11 +21,14 @@
         <!-- todo: should use post method instead get -->
         <form method="get" action="/register">
             <label>First Name :</label>
-            <input type="firstname" name="text"> <br>
+            <input type="firstname" name="text" ng-model="firstname"> <br>
+            <p>{{firstname}}</p>
             <label>Last Name :</label>
-            <input type="lastname" name="text">  <br>
+            <input type="lastname" name="text" ng-model="lastname">  <br>
+            <p>{{lastname}}</p>
             <label>Email :</label>
-            <input type="email" name="email"> <br>
+            <input type="email" name="email" ng-model="email"> <br>
+            <p>{{email}}</p>
             <label>Password</label>
             <input type="password" name="password"> <br>
 
