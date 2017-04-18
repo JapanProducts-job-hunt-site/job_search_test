@@ -43,7 +43,8 @@ app.get('/login', function (req,res) {
     {
         if(defaultPass === given_pass)
         {
-            res.send("LOG IN oK");
+
+            res.sendFile(__dirname + "/views/dashboard.html");
         }
 
     }
